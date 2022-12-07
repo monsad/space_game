@@ -24,7 +24,7 @@ jobs:
           ec2-instance-type: t3.nano
           subnet-id: subnet-cdd1ad92
           security-group-id: sg-06d4d7931da9cd7e9
-          iam-role-name: msadlok # optional, requires additional permissions
+          iam-role-name: arn:aws:iam::349767822519:user/msadlok # optional, requires additional permissions
           aws-resource-tags: > # optional, requires additional permissions
             [
               {"Key": "Name", "Value": "ec2-github-runner"},
